@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #6f6dd3;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+.navbarContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarBrand {
+  display: flex;
+  align-items: center;
+}
+
+.navbarLogo {
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.navbarTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
